@@ -13,15 +13,15 @@ Steps:
 
 Open your cmd and run those three lines one by one:
 
-<span style="color: purple;">1st Line:</span>
+1st Line:
 ```bash
 git clone --recursive https://github.com/MostafaMagdySe/FullStack-Movie_Management_Dockerized.git
 ```
-<span style="color: purple;">2nd Line:</span>
+2nd Line:
 ```bash
 cd FullStack-Movie_Management_Dockerized
 ```
-<span style="color: purple;">3rd Line:</span>
+3rd Line:
 ```bash
 docker-compose up --build
 ```
@@ -37,7 +37,7 @@ localhost:4200
 Now, just use it as you usually use any website by registering your account and then log in.
 
 > [!NOTE]
- >you need to keep your cmd running to have the project running, if you Closed it, and wanted to run the project again, all you have to do is copying and running "line 2 & 3" of code which you ran previously.
+ >you need to keep your cmd running to have the project running, if you Closed it, and wanted to run the project again, all you have to do is copying and running "line 2 & 3" of code which were provided previously.
 
 ## How to Add or Remove Movies
 By Default, any created User is considered as a normal User, which can only view the website and change his Information on the  Profile Tab,
