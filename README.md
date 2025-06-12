@@ -1,5 +1,5 @@
 # FullStack-Movie_Management_Dockerized
-This is a Dockerized Version of The Movie Management Website. which means you can easily run the whole project with one line of code. and you just need to Install Docker to your Machine.
+This is a Dockerized Version of The Movie Management Website. which means you can easily run the whole project with one line of code. and you just need to Install Docker into your Machine.
 
 # Prerequisite
 1- You Must install "Docker" into your machine and run it.
@@ -9,7 +9,7 @@ This is a Dockerized Version of The Movie Management Website. which means you ca
 ## Running the Project
 Assuming you will download the project via "Git" , if not, you just need to open cmd and navigate to your project's location using "cd" command and head to 3rd line of code directly and run it.
 
-Steps:
+**Steps:**
 
 Open your cmd and run those three lines one by one:
 
@@ -27,9 +27,9 @@ docker-compose up --build
 ```
 and now your project is Running!
 
-##How to use The project
+## How to use The project
 
-open your browser and paste this url:
+Open your browser and paste this url:
 ```bash
 localhost:4200
 ```
