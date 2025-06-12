@@ -3,6 +3,7 @@ This is a Dockerized Version of The Movie Management Website. which means you ca
 
 # Prerequisite
 1- You Must install "Docker" into your machine and run it.
+
 2- (optional) if you won't download the project manually and want it to be downloaded automatically, you need to install "Git" software into your machine so that it downloads the project for you.
 
 ## Running the Project
@@ -11,15 +12,16 @@ Assuming you will download the project via "Git" , if not, you just need to open
 Steps:
 
 Open your cmd and run those three lines one by one:
-1st Line:
+
+<span style="color: purple;">1st Line:</span>
 ```bash
 git clone --recursive https://github.com/MostafaMagdySe/FullStack-Movie_Management_Dockerized.git
 ```
-2nd Line:
+<span style="color: purple;">2nd Line:</span>
 ```bash
 cd FullStack-Movie_Management_Dockerized
 ```
-3rd Line:
+<span style="color: purple;">3rd Line:</span>
 ```bash
 docker-compose up --build
 ```
@@ -34,7 +36,8 @@ localhost:4200
 
 Now, just use it as you usually use any website by registering your account and then log in.
 
-note: you need to keep your cmd running to have the project running, if you Closed it, and wanted to run the project again, all you have to do is copying and running "line 2 & 3" of code which you ran previously.
+> [!NOTE]
+ >you need to keep your cmd running to have the project running, if you Closed it, and wanted to run the project again, all you have to do is copying and running "line 2 & 3" of code which you ran previously.
 
 ## How to Add or Remove Movies
 By Default, any created User is considered as a normal User, which can only view the website and change his Information on the  Profile Tab,
@@ -55,8 +58,8 @@ for example if your username was Mostafa, you will have the following line of co
 UPDATE users SET role_id = 1 WHERE username = 'Mostafa';
 ```
 
-
-make sure the you changed your_user_name with exactly the same username you used during registeration process to prevent errors.
+> [!CAUTION]
+>make sure the you changed your_user_name with exactly the same username you used during registeration process to prevent errors.
 
 Once you run this command, feel free to exit the second cmd window which you are currently staying at, log out from your account and log in again.
 
