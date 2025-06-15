@@ -1,5 +1,11 @@
 # FullStack-Movie_Management_Dockerized
-This is a Dockerized Version of The Movie Management Website. which means you can easily run the whole project with one line of code. and you just need to Install Docker into your Machine.
+This is a Dockerized Version of The Movie Management Website. which means you can easily run the whole project with one line of code. and you just need to Install Docker into your Machine. 
+
+For more inofrmation abot the project, you can visit the backend and the frontend Repos:
+
+Backend:  [Movie-Management BackEnd_repository](https://github.com/MostafaMagdySe/Movie-Management).
+
+FrontEnd  [Movie-Management FrontEnd_repository](https://github.com/MostafaMagdySe/Movie-Management-Front-End).
 
 # Prerequisite
 1- You Must install "Docker" into your machine and run it.
