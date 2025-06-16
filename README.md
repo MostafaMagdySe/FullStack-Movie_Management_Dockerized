@@ -56,6 +56,8 @@ docker exec -it postgres-db psql -U postgres -d movies
 ```
 this will allow you to modify the database and changing you Role From a normal user to an admin, and to do that you have to run the next line of code and edit it accordingly to suit your username before running it.
 
+Also, after excuting the previous line, you won't be able to paste the other line (the one which is below this sentence) by pressing ctrl+v .. instead, you should press right click of your mouse to paste the link and then Hit Enter button.
+
 ```bash
 UPDATE users SET role_id = 1 WHERE username = 'your_user_name';
 ```
